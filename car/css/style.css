@@ -1,0 +1,322 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home__header{
+    background-image: url("../bg_header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}
+.header__left{
+    padding: 0px;
+    margin: 125px 0px 124px;
+    filter: brightness(1);
+}
+.header__left h2{
+    font-size: 45px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.header__left h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFD800;
+    font-weight: 400;
+}
+.header__left p{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+.header__right{
+    background: rgba(255,216,0,1);
+    text-align: center;
+    margin: 58px 0px 50px;
+    filter: brightness(1);
+    border-radius: 7px;
+}
+.header__right h3{
+    padding-top: 20px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+}
+.header__right p{
+    font-size: 16px;
+    padding-bottom: 14px;
+}
+.header__right input,.header__right textarea{
+    padding: 8px 16px;
+    width: 89%;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+.header__right textarea{
+    height: 100px;
+}
+.header__right button{
+    background: #000000;
+    color: #ffffff;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin: -5px 0px 50px;
+}
+/***************key****************/
+.home__key{
+    margin-top:40px;
+}
+.home__key h3{
+    font-size: 36px;
+    
+}
+.home__key p.key_title{
+    font-size: 16px;
+   padding-bottom: 40px;
+}
+.key__item h4{
+ font-size: 21px;
+ font-weight:bold;
+ padding-bottom: 9px;
+}
+.key__item p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.key__item img{
+    float: left;
+    margin-right: 11px;  
+}
+.key__item:last-child{
+    padding-bottom: 40px;
+}
+.home__key__img{
+    margin-top: 55px;
+}
+/**********help**********/
+.home__help{
+    background: #333336;
+    color: #ffffff;
+    padding: 70px 0px;
+}
+.home__help__text h1{
+    font-size: 30px;
+    margin: 0px;
+    padding-bottom: 8px;
+}
+.home__help__text p{
+    font-size: 16px;
+}
+.home__help__phone p{
+    font-size: 16px;
+}
+.home__help__phone span{
+    font-size: 24px;
+}
+.home__help__phone button{
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    margin-left: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.text_help{
+    float: left;
+}
+/****************title*************/
+.title{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 65px;
+
+}
+.title h1{
+    font-family: initial;
+    font-size: 40px;
+}
+.title span{
+    font-size: 19px;
+    font-family: cursive;
+    color: #a5a1a1;
+    word-spacing: 2px;
+}
+.title p{
+    font-size: 15px;
+    font-family: cursive;
+}
+/************service**********/
+.home__services__item .item{
+    text-align: center;
+    box-shadow:0px 1px 2px 3px #f1eaea;
+    width: 31%;
+    margin-right: 39px;
+    margin-bottom: 39px;
+    padding: 30px;
+}
+.home__services__item .item:nth-child(3),.home__services__item .item:nth-child(6){
+margin-right: 0px!important;
+}
+.home__services__item h3{
+    font-size: 22px;
+    font-family: initial;
+    font-weight: bold;
+}
+.home__services__item .item p{
+    font-size: 15px;
+    font-family: cursive;
+}
+/*******************sign off*********/
+.home_sign_off{
+    margin-top: 50px;
+    text-align: center;
+}
+.home_sign_off h1{
+    font-weight: bold;
+    font-size: 37px;
+    padding-bottom: 25px;
+}
+.home_sign_off button{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: initial;
+    padding: 16px 32px;
+    border: none;
+    background: rgba(255,216,0,1);
+    border-bottom-left-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+}
+/****************home_client********/
+.home__client{
+    background: #F0F0F0;
+    margin-top: 100px;
+    padding: 34px 0px 55px;
+}
+.home__client__item .item{
+    padding:0px;
+}
+.home__client__item .item img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-right: 19px;
+    float: left;
+}
+.home__client__item .item p{
+    padding-right: 32px;
+    padding-top: 16px;
+}
+.home__client__item .item h4{
+    padding-top: 26px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.home__client__item .item span{
+    color: #a5a1a1;
+}
+/**********home_ask**********/
+.home__ask__item .item{
+    margin-bottom: 50px;
+}
+.home__ask__item .item img{
+    width: 4%;
+    float: left;
+    margin-right: 25px;
+}
+.home__ask__item .item h3{
+    color: #FFD800;
+    font-size: 21px;
+    position: relative;
+}
+.home__ask__item .item h3::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 72px;
+    height: 1px;
+    background: #DEDEDE;
+}
+.home__ask__item .item:nth-child(1) h3::after{
+    width: 353px;
+}
+.home__ask__item .item:nth-child(2) h3::after{
+    width: 434px;
+}
+.home__ask__item .item p{
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: 18px;
+    line-height: 2;
+    font-family: serif;
+}
+.home__ask__item .item span{
+    font-weight: bold;
+    font-size: 17px;
+}
+/**********footer***********/
+.home__footer__main .item{
+    margin-bottom: 34px;
+}
+.home__footer__main .item:nth-child(1) h3{
+    margin-top: 0px;
+}
+.home__footer__main .item i{
+    float: left;
+    padding-right: 11px;
+    color: #FFD800;
+    font-size: 25px;
+}
+.home__footer{
+    background: url("../bg_footer.jpg");
+    color: #ffffff;
+    padding-bottom: 72px;
+}
+.home__footer__main p{
+    word-spacing: 2px;
+    font-size: 17px;
+}
+.home__footer__main .icon_footer i{
+    font-size: 40px;
+    padding-right: 30px;
+    color: #FFD800;
+}
+.home__footer__main .form_footer input,.form_footer textarea{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+.form_footer input:nth-child(1){
+    width: 49%;
+}
+.form_footer input:nth-child(2){
+    width: 49%;
+}
+.form_footer input:nth-child(3){
+    width: 99%;
+}
+.form_footer textarea{
+    height: 150px;
+    width: 99%;
+}
+.form_footer button{
+    background: #FFD800;
+    color: #ffffff;
+    font-weight: bold;
+    width: 99%;
+    border: none;
+    border-radius: 3px;
+    padding: 11px 16px;
+}
